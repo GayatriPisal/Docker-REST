@@ -1,0 +1,42 @@
+{"ShakespearePlays":[
+	 { "PlayName":"The Tempest", 
+	   "Genre":"Comedy",  
+	   "Year":"1610" 
+	 },
+	 {  "PlayName":"King John", 
+		"Genre":"History",  
+		"Year":"1590" 
+	  },
+	  { "PlayName":"Romeo and Juliet", 
+		"Genre":"Tragedy",  
+		"Year":"1562" 
+	  },
+	  { "PlayName":"Macbeth", 
+		"Genre":"Tragedy",  
+		"Year":"1606" 
+	  },
+	  { "PlayName":"Two Gentlemen of Verona", 
+		"Genre":"Comedy",  
+		"Year":"1593" 
+	  },
+	  { "PlayName":"Richard II", 
+		"Genre":"History",  
+		"Year":"1595" 
+	  },
+	  { "PlayName":"A Midsummer Night's Dream", 
+		"Genre":"Comedy",  
+		"Year":"1595" 
+	  },
+	  { "PlayName":"Hamlet", 
+		"Genre":"Tragedy",  
+		"Year":"1602" 
+	  },
+	  { "PlayName":"Othello", 
+		"Genre":"Tragedy",  
+		"Year":"1603" 
+	  },
+	  { "PlayName":"Julius Caesar", 
+		"Genre":"Tragedy",  
+		"Year":"1599" 
+	  }
+]}

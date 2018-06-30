@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <style>
+
+             header 
+            {
+                background-image: url('/static/img/image1.jpg');
+                color:rgb(7, 10, 9);
+                padding-top: 10px;
+                text-align:center;
+                height: 100px;
+            }
+
+             footer 
+		    {
+                position : absolute;
+                background: rgb(252, 234, 134);
+                right: 0;
+                left: 0;
+                bottom: 0;
+                text-align : center;
+                color:black;
+		    }
+                .table1 
+                {
+                     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+                     border-collapse: collapse;
+                     width: 100%;
+                }
+        
+                .table1 tr:nth-child(even){background-color: #f2f2f2;}
+        
+                .table1 tr:hover {background-color: #ddd;}
+        
+                .table1 td, #customers th
+                {
+                     border: 1px solid #ddd;
+                     padding: 8px;
+                }
+        
+        
+                .table1 th 
+                {
+                     padding-top: 12px;
+                     padding-bottom: 12px;
+                     text-align: left;
+                     background-color: rgb(43, 30, 8);
+                     color: white;
+                } 
+        </style>
+</head>
+<body>
+        <header>
+                <h1>Shakespeare's Plays</h1>
+        </header>
+        <footer>
+                        Copyright © Gayatri Pisal
+        </footer>
+      
+    <table class="table1">
+        <thead>
+            <tr>
+                <th scope="col">PlayName</th>
+                <th scope="col">Genre</th>
+                <th scope="col">Year</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for item in items %}
+        <tr>
+            <td scope="row"> {{ item.PlayName }} </td>
+            <td scope="row"> {{ item.Genre }} </td>
+            <td scope="row"> {{ item.Year }} </td>
+        </tr>
+        {% endfor %}
+        </tbody>    
+    </table>
+
+</body>
+</html>
